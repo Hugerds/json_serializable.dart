@@ -188,7 +188,8 @@ String encodedFieldName(
       FieldRename.snake => declaredName.snake,
       FieldRename.screamingSnake => declaredName.snake.toUpperCase(),
       FieldRename.kebab => declaredName.kebab,
-      FieldRename.pascal => declaredName.pascal
+      FieldRename.pascal => declaredName.pascal,
+      FieldRename.lower => declaredName.toLowerCase()
     };
 
 /// Return the Dart code presentation for the given [type].
